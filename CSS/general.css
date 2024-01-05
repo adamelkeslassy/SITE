@@ -1,0 +1,191 @@
+/* 
+Fichier cherchant à rassembler tous les éléments de style présent sur l'ensemble du site.
+Auteur: Adam Elkeslassy 1C
+*/
+/*
+=========================================================================================
+            CSS des éléments principaux du site dans sa globalité
+=========================================================================================
+*/
+
+* {
+    letter-spacing: 1.5px;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    justify-content: start;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 1.4em;
+}
+
+p {
+    font-size: 1.5em;
+    color:rgb(23, 13, 13);
+    padding: 0.5% 3% 1% 1%;
+    margin-bottom:1%;
+    font-family: 'Roboto Slab', serif;/*Police présente pour tous les paragraphes*/
+}
+
+section {
+    z-index: -1;
+    padding: 1% 2% 2% 2%;
+    border-bottom: 2px white double;
+    background:rgb(238, 233, 180);
+    width: 100%;
+    border-radius: 50px;
+}
+
+/*
+========================================================================================
+                Style du Header(titre principal et barre de naviguation)
+========================================================================================
+ */
+ header{
+    background: linear-gradient(90deg,black, whitesmoke);
+    border-bottom: 2px whitesmoke double;
+    position:fixed;
+    width: 100%;  
+ }
+.titre-accueil{
+    text-align: center;
+    font-size: 2.8em;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    font-family: 'Black Ops One', system-ui;/* Police pour tous les titres du site */
+    text-decoration: underline;
+    color: rgb(251, 255, 0);
+}
+nav{
+    text-align: right;
+}
+nav a {
+    font-size: 2.3em;
+    padding-right: 2.5%;
+    color:red;
+}
+nav a:hover{
+    color:rgb(69, 0, 69);
+    text-decoration: underline;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    height: 5%;
+    opacity: 0.6; 
+}
+nav a:visited{
+    color:rgb(145, 19, 145);
+}
+.thème{
+    font-size: 2.8em;
+    margin-top:10%;
+    text-align:left;
+    color: rgb(251, 255, 0);
+    margin-bottom: 1.5%;
+    margin-left: 3.5%;
+    
+}
+.liste-parties a{
+    padding-left:13.5%;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between; 
+    margin-bottom:3.5%; 
+    font-weight: bold;
+    color:red;
+    font-size: 2.45em;
+}
+.liste-parties a:hover{
+    text-decoration: underline;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    opacity: 0.6;
+    padding-left:30.5%;
+    transition: padding-left 0.7s;
+}
+.liste-parties a :visited{
+    color:purple;
+}
+ 
+/*
+=========================================================================
+                     Style du Footer
+===========================================================================
+*/
+footer{
+    text-align:center;
+    background-color: black;
+    width:100% ;
+    border-radius: 20px;
+}
+footer a{
+    font-size: 2.3em;
+    padding-right: 12.5%;
+    color: red;
+    text-decoration: underline;
+}
+footer a:hover{
+    text-decoration: underline;
+    border-radius: 20px;
+    color:whitesmoke
+}
+
+/* 
+===========================================================================
+             Style de tous les titres et liens.
+===========================================================================
+*/
+
+h2{
+    font-size: 3.2em;
+    background-color:rgb(212, 224, 79);
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color:red;
+    font-family: 'Teko', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    letter-spacing: 3px;
+}
+h3{
+    font-size: 2.2em;
+    padding-left: 9%;
+    color:blue ;
+    text-decoration: underline;
+    margin-bottom: 1%;
+}
+.link-ytb{
+    color: rgb(34, 52, 247);
+    font-style: italic;
+    text-decoration: underline;
+}
+/*
+========================================================================================
+                    Style des Span 
+========================================================================================
+*/
+.gras{
+    font-weight: bold;
+}
+.souligné{
+    text-decoration: underline;
+    color: red;
+}
+strong{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.italique{
+    font-style: italic;
+}
+

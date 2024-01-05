@@ -1,0 +1,403 @@
+/* 
+Auteur: Adam Elkeslassy 1C
+Fichier visant à rassambler tous les éléments CSS spécifiques pour une ou plusieurs pages
+*/
+/*
+====================================================================================
+            Toutes les images pour la Présentation(ancres)
+==================================================================================
+*/
+#Ex-Culturiste{
+    z-index:-1;
+    height:20%;
+    width:22%;
+    float: left;
+    margin-right: 1.5%;  
+}
+#Sandow{
+    z-index:-1;
+    height:35%;
+    width:15%;
+    float: left;  
+    color: whitesmoke;
+    margin-right: 2%;
+}
+#Bulk-Cut{
+    z-index:-1;
+    height:44%;
+    width:25%;
+    float: left;  
+    color: whitesmoke;
+    margin-right: 2%;
+}
+#Dessin{
+    z-index:-1;
+    height:37%;
+    width:29%;
+    float: left;  
+    color: whitesmoke;
+    margin-right: 1.5%;
+    margin-top: 3%;
+}
+#Poses-offi{
+    z-index:-1;
+    height:43%;
+    width:41%;
+    float: left;  
+    color: whitesmoke;
+    margin-right: 3%;
+}
+/*
+====================================================================================
+            Toutes les images pour l'Histoire(ancres)
+==================================================================================
+*/
+#George-H{
+    z-index:-1;
+    height:14%;
+    width:14%;
+    float: left;
+    object-fit: cover;
+    margin-right: 2%;  
+}
+#livre{
+    z-index:-1;
+    height:35%;
+    width:18%;
+    float: right;
+    margin-right: 3%;  
+}
+#Steve-R{
+    z-index:-1;
+    height:15%;
+    width:35.5%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;  
+}
+#Affiche-f{
+    z-index:-1;
+    height:20%;
+    width:20%;
+    float: right;
+    object-fit: cover;
+    margin-right: 3%;
+    padding-top: 2%; 
+   
+}
+#Joe-W{
+    z-index:-1;
+    height:29%;
+    width:26%;
+    float: right;
+    margin-right: 3%;  
+}
+#Golden-Era{
+    z-index:-1;
+    height:29%;
+    width:26%;
+    float: left;
+    margin-right: 3%;  
+    margin-left: 2%;
+}
+#Bumstead{
+    z-index:-1;
+    height:28%;
+    width:24%;
+    float: left;
+    margin-right: 3%;  
+    margin-left: 2%;
+}
+/*
+====================================================================================
+            Toutes les images pour les Catégories(ancres)
+==================================================================================
+*/
+#Open-Body{
+    z-index:-1;
+    height:20%;
+    width:20%;
+    float: left;
+    object-fit: cover;
+    margin-right: 2%;
+    margin-top: 1%;  
+}
+#Men-Phy{
+    z-index:-1;
+    height:25%;
+    width:20%;
+    float: left;
+    object-fit: cover;
+    margin-right: 2%;
+    margin-top:1%;  
+}
+#Classic-image{
+    z-index:-1;
+    height:33%;
+    width:25%;
+    float: left;
+    margin-right: 2%;
+    margin-top:1%;  
+}
+#Women-Phy{
+    z-index:-1;
+    width:15%;
+    float: left;
+    object-fit: cover;
+    margin-right: 2%;
+    margin-top:1%;  
+}
+#Body-F{
+    z-index:-1;
+    width:16%;
+    float: left;
+    object-fit: cover;
+    margin-right: 2%;
+    margin-top:1%; 
+}
+#Bikini-image{
+    z-index:-1;
+    width:16%;
+    float: left;
+    object-fit: cover;
+    margin-right: 2%;
+    margin-top:1%; 
+}
+#Figure-image{
+    z-index:-1;
+    width:16%;
+    float: left;
+    object-fit: cover;
+    margin-right: 2%;
+    margin-top:1%; 
+}
+#Affiche-Olymp{
+    z-index:-1;
+    width:20%;
+    float: left;
+    object-fit: cover;
+    margin-right: 2%;
+}
+/*
+====================================================================================
+            Toutes les images pour les Personnalités(ancres)
+==================================================================================
+*/
+#Coleman-Image{
+    z-index:-1;
+    height:30%;
+    width:30.5%;
+    float: left;
+    object-fit: cover;
+    margin-right: 2%;
+    margin-top: 0.9%; 
+     
+}
+#Arnold-Image{
+    z-index:-1;
+    height:75%;
+    width:20%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1.3%;   
+}
+#Chris-Image{
+    z-index:-0.5;
+    width:26%;
+    float: left;
+    margin-right: 2%;   
+}
+#Rachel-Image{
+    z-index:-1;
+    width:19%;
+    float: left;
+    object-fit: cover;
+    margin-right: 2%;
+    margin-top:1%;  
+}
+#Corinna-Image{
+    z-index:-1;
+    width:18.5%;
+    float: left;
+    object-fit: cover;
+    margin-right: 2%; 
+}
+#Iris-Image{
+    z-index:-1;
+    width:33%;
+    float: left;
+    margin-right: 2%;
+}
+/* 
+==============================================================================
+                  Style Image d'Accueil
+==============================================================================
+ */
+ #Accueil{
+    height: 100%;
+    background: url('/Images/Présentation-Photo.jpg') top;
+    border-bottom: 2px white double;
+    width: 100%;
+    padding-bottom: 2%;
+}
+.liste-accueil{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 4%;
+    text-align:left;
+    color:rgb(10, 10, 19);
+    font-size: 1.6em;
+}
+/* 
+==============================================================================
+                  Style de la page Histoire
+==============================================================================
+ */
+ #Histoire{
+    height: 100%;
+    background: url('/Images/Histoire_img.jpg');
+    border-bottom: 2px white double;
+    width: 100%;
+    background-size:cover;
+    padding-bottom: 8%;
+}
+.liste-Steve{
+    display: grid;
+    grid-template-columns: 90%;
+    text-align:left;
+    color:red;
+    font-size: 1.7em;
+    gap:4%;
+    padding-bottom: 1%;
+
+}
+/* 
+==============================================================================
+                  Style de la page Catégories
+==============================================================================
+ */
+ #Catégorie{
+    height: 100%;
+    background: url('/Images/Accueil-Catégories.jpg') center;
+    border-bottom: 2px white double;
+    width: 100%;
+    background-size:cover;
+}
+.Titre-Partie{
+    font-size: 2.8em;
+    margin-top:0.2%;
+    text-align:center;
+    color: rgb(251, 255, 0);
+    padding-top: 9%;
+    
+    
+}
+#Compétition-Accueil a {
+    font-size: 1.2em;
+    color:red ;
+    text-decoration: underline;
+}
+#Compétition-Accueil a:hover{
+    text-decoration: underline;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    opacity: 0.6;
+    margin-left:9%;
+    transition: margin-left 1s;
+    
+}
+.sous-partie{
+    font-size: 2.5em;
+    text-align: left;
+    padding-left: 5%;
+    color: rgb(43, 38, 202);
+    margin-bottom: 0.45%;
+}
+.élem-sous-part a{
+    padding-left:13.5%;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between; 
+    font-weight: bold;
+    color:red;
+    font-size: 2.3em;
+    padding-bottom: 0.5%;
+}
+.élem-sous-part a:hover{
+    text-decoration: underline;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    opacity: 0.6;
+    padding-left:33.5%;
+    transition: padding-left 0.7s;
+}
+.élem-sous-part a :visited{
+    color:purple;
+}
+
+.liste-catégorie{
+    display: grid;
+    grid-template-columns: 70%;
+    text-align:left;
+    color:rgb(15, 15, 34);
+    font-size: 1.6em;
+    gap:3%;
+}
+/* 
+==============================================================================
+                  Style de la page Personnalités
+==============================================================================
+ */
+ #Personnalités-Accueil{
+    background: url('/Images/Accueil-Personnalités.jpg') top;
+    background-size: cover;
+    border-bottom: 2px white double;
+    padding-bottom: 5%;
+    height: 100%;
+    width: 100%;
+ }
+ /* 
+==============================================================================
+                  Style de la page Formulaire
+==============================================================================
+ */
+#Formulaire-Accueil{
+    color:rgb(161, 161, 233);
+    font-size: 2.4em;
+    text-align: center;
+}
+#Fond-Form{
+    background-color: rgb(56, 56, 56);
+}
+fieldset{
+    background:rgb(238, 233, 180);
+    border-radius: 20px;
+    font-size: 1em;
+    text-align: center;
+}
+input[type="text"]
+{
+height: 38px;
+}
+legend{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 1.6em;
+    background-color:rgb(200, 200, 241);
+    color: red;
+    font-family: 'Black Ops One', system-ui;
+    border-radius: 30px;
+}
+input[type="reset"]
+{
+height: 50px;
+font-size: 2em;
+font-family: 'Black Ops One', system-ui;
+margin-right: 2%;
+margin-bottom: 1%;
+}
+input:hover[type="reset"]
+{
+color: red;
+}
+
