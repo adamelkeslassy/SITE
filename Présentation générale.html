@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tout Savoir sur le Culturisme</title>
+    <!-- Importation de ma feuille de style CSS pour le reste de l'affichage de la page-->
+    <link href="CSS/general.css" rel="stylesheet">
+    <link href="CSS/spécifique.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto+Slab&family=Teko:wght@300&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- Header utilisé pour avoir notre barre de naviguation et le titre de notre site -->
+    <div id="Accueil">
+        <header>
+            <!-- On utilise l'attribut class pour appliquer notre CSS -->
+            <h1 class="titre-accueil">Le Culturisme sous toute ses formes</h1>
+            <nav>
+                <a href="HTML/Présentation générale.html" class="barre_nav">Présentation</a>
+                <a href="HTML/Histoire.html" class="barre_nav">Histoire</a>
+                <a href="HTML/Catégories.html" class="barre_nav">Catégories</a>
+                <a href="Personnalités.html" class="barre_nav">Personnalités</a>
+                <a href="HTML/Bodybuild-Me.html" class="barre_nav">Bodybuild-Me</a>
+            </nav>
+        </header>
+        <main>
+            <h1 class="thème" id="Haut_de_page">Présentation global :</h1>
+            <!--Liste à puce, pour accéder à chaque sous-parties avec l'attribut href-->
+            <div class="liste-parties">
+                <ul>
+                    <li><a href="#Définition culturisme" class="menu">Définition Culturisme</a></li>
+                    <li><a href="#Origine de la discipline" class="menu">Origine de la discipline</a></li>
+                    <li><a href="#Procédés du culturisme" class="menu">Procédés du culturisme</a></li>
+                    <li><a href="#Description du physique de culturiste" class="menu">Physique de culturiste</a></li>
+                    <li><a href="#Poses culturisme" class="menu">Poses culturisme</a></li>
+                </ul>
+            </div>
+        </div>
+    <!-- Balise section pour structure mon contenu-->
+    <section>
+        <h2 id="Définition culturisme">Qu'est-ce que le culturisme ?</h2>
+        <p>
+            <!-- Création d'une ancre avec id pour chaque sous-partie -->
+            <!--Balise orpheline img pour insérer une image -->
+            <img src="Image/Culturistes pros.jpeg" alt="Compétition IFBB en Classic physique" id="Ex-Culturiste">
+            Selon le Larousse, c'est une culture physique destinée à développer la musculature.<br>
+            <!-- Balise universelle span pour appliquer le CSS, et balise strong pour indiquer l'importance du texte dans la page-->
+            En d'autres termes, on peut le qualifier <strong><span class="italique">d'art du muscle</span></strong>, on
+            cherche à <span class="gras">surdéveloper sa masse musculaire à l'aide de la musculation</span>
+            (on parle d'<span class="italique">hypertrophie musculaire</span>), pour atteindre un physique dit
+            aesthétic(musclé).<br>
+        </p>
+        <p>
+            Tout réside donc dans l'apparence <strong>esthétique du corps humain</strong>.
+            Ce sport est plus connu sous le nom de <strong><span class="italique">Bodybuilding</span></strong> en
+            anglais.
+        </p>
+    </section>
+    <section>
+        <h2 id="Origine de la discipline">Quelle est l'origine de cette discipline ?</h2>
+        <p>
+            <img src="Image/Eugène SANDOW.jpg" alt="Pose en tenue d'haltérophilie 1894" id="Sandow">
+            L'entraînement avec des poids était pratiqué il y a <span class="gras">déjà 4000 ans</span> par les
+            Babyloniens, Assyriens et Chinois. De même pour les Grecs et Romains un peu plus tard.<br>
+            Toutefois, il faudra atteindre jusqu'en <span class="gras">1811 avant la création du premier club de
+                musculation</span>, appelé "poids et haltères" sous Napoléon.<br>
+            Le but était de <span class="gras">fortifier les soldats les plus faibles</span> à l'aide de poids et de
+            lests.
+        </p>
+        <p>
+            L'apparition du culturisme en tant que tel se déroule au <span class="gras">XIX° siècle en Europe</span>. Un
+            de ces fondateurs fut l'athlète allemand <a
+                href="https://www.mister-sandow.com/fr/blog/post/eugen-sandow.html" class="link-ytb">Eugène
+                SANDOW</a></span> né en 1867.<br>
+            Il se fit connaître pour ses démonstrations de son physique impressionnant, aspect clé de ce sport.<br>
+            Au delà de cela, il chercha réellement <strong>l'esthétisme musculaire et non un physique démesuré.</strong>
+            <!--Création d'un lien hypertexte avec la balise a et l'attribut href -->
+        </p>
+    </section>
+    <section>
+        <h2 id="Procédés du culturisme">En quoi consiste-t-il précisément ?</h2>
+        <p>Les culturistes cherchent à développer un <span class="gras">physique à la fois massif(large),musclé et
+                sec(muscles apparents)</span>.<br>
+            Cela demande un travail très rigoureux et fastidieux.
+        </p>
+        <p>
+            Il se décompose pour simplifier, en une alternance d'entraînements de musculation hypertrophique et de
+            repos,
+            le tout accompagné d'une alimentation strict.<br>
+            Cette alimentation varie en fonction du <span class="gras">Cycle</span> dans lequel ils sont, il en existe
+            trois :
+        </p>
+        <img src="Image/Différence entre bulking et cutting.jpeg"
+            alt="Luke Delanay Bodybuilder IFBB en prise de masse, puis sèche" id="Bulk-Cut">
+        <ul class="liste-accueil">
+            <li><span class="souligné">Prise de masse(<span class="italique">Bulking</span> en anglais):</span> Régime
+                riche en calories et en protéine, où on ingère plus de calories qu'on en brûle.<br>
+                <span class="souligné">Objectif:</span> favoriser la croissance musculaire en prenant du poids
+            </li>
+
+            <li><span class="souligné">Sèche(<span class="italique">Cutting</span>):</span> Diète où l'on cherche à
+                avoir un déficit calorique, perdre plus de calories qu'on ingère qui amène à une perte de poids.<br>
+                <span class="souligné">Objectif:</span> diminuer le pourcentage de masse de grasse, en maintenant autant
+                que possible sa masse musculaire.
+            </li>
+
+            <li><span class="souligné">Maintien(<span class="italique">Maintenance</span>):</span> Alimentation, dans
+                laquelle on brûle autant de calories qu'on absorbe, le poids reste alors stable.<br>
+                <span class="souligné">Objectif:</span> garder une musculature stable et constante durant tout le
+                régime.
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2 id="Description du physique de culturiste">A quoi doit ressembler exactement un physique de culturiste ?Que
+            vise-t-il ?</h2>
+        <p>Beaucoup d'éléments se conjuguent, pour construire le corps tant demandé de culturiste(ou <span
+                class="italique">bodybuiler</span>).<br>
+            Les atteintes se divisent et sont <span class="gras">différentes en fonction des muscles ciblés.</span>
+            On compte <span class="gras">8 groupes musculaires</span> particulièrement importants à développer, voici la
+            liste en partant des jambes:
+        <ol>
+            <div class="liste-accueil">
+                <li><span class="souligné">Les Jambes:</span> les quadriceps et ischiojambiers sont les deux muscles
+                    principaux de ce groupe,
+                    qui permettent d'avoir des jambes particulièrement musclées visuellement.(striations visible)</li>
+
+                <li><span class="souligné">Les Fessiers:</span> composé majoritairement du grand fessier,le muscle qui
+                    donne les fameuses stridations visibles,
+                    et également le bombé de la fesse dans son ensemble.</li>
+
+                <li><span class="souligné">Les Dorsaux(le dos):</span> le muscle que l'on voit en premier est le grand
+                    dorsal, qui donne une forme en "V" au culturiste,il élargit donc le dos,
+                    et donne du volume au buste dans son ensemble. </li>
+        </ol>
+        </div>
+        <img src="Image/Représentation-culturiste.jpg" alt="Dessin du corps d'un cultursite homme" id="Dessin">
+        <ol>
+            <div class="liste-accueil">
+                <li><span class="souligné">La Chaîne Abdominal:</span> divisé en deux parties, le grand droit qui
+                    représente les abdominaux("tablette de chocolat"), un aspect crucial de la discipline.
+                    Et les obliques qui forment toute la partie dentelé des abdos qui s'insèrent sur les côtés.</li>
+
+                <li><span class="souligné">Les Bras:</span> groupes musculaires le plus recherchés en termes
+                    d'hypertrophie.Il est composé de triceps, qui est la plus imposante car elle recouvre 2/3 du bras.
+                    D'autre part il y a le biceps, icone de ce sport parmi la population, il forme en se contractant une
+                    "bosse" apparente et donne du volume sur la partie avant du bras.</li>
+
+                <li><span class="souligné">Les Pectoraux:</span> considérés comme les muscles les plus voyants de tous
+                    le haut du corps(pour un homme) et comme celui qui donne de l'ampleur au buste.
+                    Les culturistes cherchent à augmenter leur volumes et largeurs le plus possible, car ils sont
+                    décisifs dans l'apparence de leur physiques.</li>
+
+                <li><span class="souligné">Les Epaules:</span> permettent de compléter l'effet donné par les dorsaux de
+                    cette forme en "V" du corps, grâce à leur largeur.
+                    De plus, les fibres musculaires ici sont particulièrement visibles lors de leurs contractions.</li>
+
+                <li><span class="souligné">Les Trapèzes:</span> point caractéristique des culturistes qui ont des
+                    trapèzes particulièrement plus développés que la moyenne.
+                    Ce sont tous les muscles situés au niveau du haut du dos, qui donne un aspect de "taureaux" aux
+                    athlètes. </li>
+        </ol>
+        </div>
+        </p>
+    </section>
+    <section>
+        <h2 id="Poses culturisme">Quelles sont les poses propres aux compétitions de culturisme ?</h2>
+        <p>En effet ce sport comme bien d'autres, possèdent de <span class="gras">nombreuses compétitions</span>, de
+            différentes catégories et niveaux.<br>
+            Elles ont tous pour but à <span class="gras">juger une chorégraphie</span> des athlètes accompagnée d'une
+            musique et de plusieurs <strong>poses caractéristiques:</strong>
+        <ol>
+            <div class="liste-accueil">
+                <li><span class="souligné">Double biceps de face( <span class="italique">Front double
+                            biceps</span>):</span> on ressort le torse, on contracte les cuisses, on ouvre la cage
+                    thoracique, on lève les deux bras en les plaçant parallèlement au sol.<br>
+                    Puis, on contracte les deux biceps,tout en faisant ressortir les dorsaux(le dos) et les abdos.(<a
+                        href="https://www.youtube.com/watch?v=JLu0p_O-QIc" class="link-ytb">Démonstration Double biceps
+                        de face</a></span>)</li>
+
+                <li><span class="souligné">Double biceps de dos(<span class="italique">Back double
+                            biceps</span>):</span> on ouvre les épaules, on place les coudes à leurs hauteurs, puis on
+                    contracte le dos et les biceps.<br>
+                    En même temps,les ischios et mollets seront sollicités, car on soulève légèrement une des deux
+                    jambes.(<a href="https://www.youtube.com/watch?v=GDYaW_VeaX4" class="link-ytb">Démonstration Double
+                        biceps</a></span>)</li>
+
+                <li><span class="souligné">Biceps cage(<span class="italique">Side chest</span>):</span> on redresse la
+                    poitrine, on oriente le buste sur le côté, on tire le coude vers l'arrière, on plie une jambe pour
+                    faire ressortir les ischios et mollets.<br>
+                    Et, on contracte à la fois les pectoraux et le biceps du bras mis en évidence devant le jury.(<a
+                        href="https://www.youtube.com/watch?v=H8c_-FBpsEc" class="link-ytb">Démonstration Biceps
+                        Cage</a></span>)</li>
+        </ol>
+        </div>
+        <img src="Image/Toutes les poses du culturisme.jpg"
+            title="Document officiel concernant les poses obligatoires en IFBB" id="Poses-offi">
+        <ol>
+            <div class="liste-accueil">
+
+                <li><span class="souligné">Triceps cage(<span class="italique">Side triceps</span>):</span> on plie
+                    légèrement les cuisses, on pivote le haut du corps, on vient coller le bras sur les dorsaux.<br>
+                    Ensuite, on contracte le triceps en même temps que les abdos.(<a
+                        href="https://www.youtube.com/watch?v=H8c_-FBpsEc" class="link-ytb">Démonstration Triceps
+                        Cage</a></span>)</li>
+
+                <li><span class="souligné">Abdos cuisses(<span class="italique">Abdominal and thighs</span>):</span> on
+                    place les mains derrière la nuque, on sort la poitrine et on contracte toute la chaîne
+                    abdominal.<br>
+                    On va également, faire ressortir les quadriceps en plaçant la pointe des pieds vers le bas.(<a
+                        href="https://www.youtube.com/watch?v=CaTVN3ewWPw" class="link-ytb">Démonstration Abdos
+                        Cuisses</a></span>)</li>
+        </ol>
+        </div>
+        </p>
+    </section>
+    </main>
+    <!-- Création du footer afin d'avoir mon mail, accéder au pdf explicatif et remonter la page-->
+    <footer>
+        <a href="mailto:adamelkeslassy0@gmail.com">Contactez-moi</a>
+        <a href="Document Premier Rendu Projet HTML.pdf">Document explicatif</a>
+        <a href="#Haut_de_page">Haut de page</a>
+    </footer>
+</body>
+
+</html>
