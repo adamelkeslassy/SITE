@@ -56,9 +56,6 @@ section {
     border-bottom: 2px whitesmoke double;
     position:fixed;
     width: 100%;
-    justify-content: start;
-    display: flex;
-    flex-wrap: wrap;
  }
 h1{
     text-align: center;
