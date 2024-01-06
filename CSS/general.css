@@ -55,7 +55,10 @@ section {
     background: linear-gradient(90deg,black, whitesmoke);
     border-bottom: 2px whitesmoke double;
     position:fixed;
-    width: 100%;  
+    width: 100%;
+    justify-content: start;
+    display: flex;
+    flex-wrap: wrap;
  }
 h1{
     text-align: center;
