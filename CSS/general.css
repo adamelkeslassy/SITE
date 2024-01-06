@@ -26,9 +26,6 @@ html {
 }
 
 body {
-    justify-content: start;
-    display: flex;
-    flex-wrap: wrap;
     min-height: 1.4em;
 }
 
